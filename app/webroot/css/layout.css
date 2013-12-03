@@ -1,0 +1,168 @@
+/* CSS Document */
+
+.title{
+	padding:0;
+	margin:0;
+	color:#FFF;
+	font-size:1.8em;
+	font-weight:normal;
+	font-family:'Myriad Pro',Verdana, Geneva, sans-serif;
+}
+.title span{
+	color:#93ceee;
+}
+
+html{
+	background:#000;
+}
+#topo{
+	width:100%;
+	height:560px;
+	position:relative;
+}
+#topo>#logo{
+	background:url(../img/layout/bg-top.jpg) no-repeat center;
+	width:960px;
+	height:131px;
+	position:relative;
+	margin:0 auto;
+}
+#topo>#logo img{
+	position:absolute;
+	top:18px;
+	left:290px;
+}
+#topo>#menu{
+	width:960px;
+	height:60px;
+	margin:0 auto;
+	position:relative;
+	z-index:9999;
+	background:url(../img/layout/menu-bg.jpg) no-repeat;
+}
+#menu nav ul{
+	text-align:center;
+	width:960px;
+	height:60px;
+	position:absolute;
+	padding:0;
+	top:15px;
+	text-shadow:3px 2px 2px #000;
+	left:20px;
+	margin:0;
+}
+#menu nav ul li{
+	display:inline;
+	margin:0;
+	padding:0;
+}
+#menu nav ul li a{
+	margin:0 30px;
+	color:#FFF;
+	text-decoration:none;
+	font-size:1.8em;
+	font-family:"Myriad Pro",Verdana, Geneva, sans-serif;
+}
+#menu nav ul li a:hover{
+	color:#8ec7e6;
+}
+#topo>#banner{
+	width:960px;
+	height:368px;
+	margin:0 auto;
+}
+
+#rodape{
+	background:url(../img/layout/footer-bg.jpg) no-repeat;
+	height:104px;
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+#rodape .copy{
+	position:absolute;
+	top:35px;
+	left:40px;
+	color:#FFF;
+}
+#rodape .copy span{
+	color:#3CF;
+}
+#rodape .midias{
+	width:159px;
+	height:60px;
+	position:absolute;
+	right:80px;
+	top:32px;
+}
+#rodape .midias ul{
+	margin:0;
+	padding:0;
+}
+#rodape .midias ul li{
+	list-style-type:none;
+	display:inline;
+}
+#rodape .midias ul li a{
+	margin:0;
+	padding:0;
+	width:52px;
+	height:51px;
+	float:left;
+	background:url(../img/layout/list-services.png) no-repeat;
+}
+#rodape .midias ul li:last-child a{
+	margin:0 0 0 -7px;
+}
+#rodape .midias ul li a.face{ background-position:left -52px top 0; }
+#rodape .midias ul li a.twitter{ background-position:left; }
+#rodape .midias ul li a.youtube{ background-position:right 0; padding:0; }
+
+a.tooltip{
+  position:relative; 
+  font-size:12px; 
+  color:#039;
+  text-decoration:none;
+  cursor:pointer; 
+  }
+
+  a.tooltip:hover{
+  background:transparent;
+  color:#f00;
+  z-index:25; 
+
+  }
+  a.tooltip span{display: none
+  }
+
+  a.tooltip:hover span{ 
+   	position: absolute;
+      width: 100px;
+      height: 20px;
+	  top:51px;
+	  opacity:.6;
+	  left:-35px;
+      line-height: 20px;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      color: rgb(113, 157, 171);
+      background: rgb(255, 255, 255);
+      border: 4px solid rgb(255, 255, 255);
+      border-radius: 5px;
+      text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+      box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+	  display:block;
+  }
+  a.tooltip span:after{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 10px;
+      border-style: solid;
+      border-color: transparent transparent #FFFFFF transparent;
+      top: -20px;
+      left: 50px;
+}
+

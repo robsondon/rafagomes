@@ -1,0 +1,177 @@
+/* CSS Document */
+#home{
+	width:960px;
+	margin:0 auto;
+}
+#fastbar{
+	height:330px;
+	width:960px;
+	background:url(../img/home/sidemenubg.jpg) repeat;
+}
+.separacao{
+	width:250px;
+	height:300px;
+	float:left;
+	padding:15px;
+	margin:0 60px 0 0;
+	position:relative;
+}
+.separacao:last-child{
+	margin:0;
+}
+.bartitle{
+	padding:0;
+	margin:0;
+	color:#FFF;
+	font-size:1.8em;
+	font-weight:normal;
+	font-family:'Myriad Pro',Verdana, Geneva, sans-serif;
+}
+.bartitle span{
+	color:#93ceee;
+}
+.news ul{
+	margin:0;
+	padding:0;
+	width:250px;
+	height:300px;
+}
+.news ul li{
+	margin:25px 0;
+	width:250px;
+	height:65px;
+	list-style-type:none;
+	color:#FFF;
+}
+.news ul li:last-child{
+	margin:20px 0 0 0;
+}
+.news ul li .date{
+	width:54px;
+	height:54px;
+	float:left;
+	position:relative;
+	background:url(../img/home/bgdate.png) no-repeat;
+}
+.news ul li .date .dia{
+	font-family:'Myriad Pro',Verdana, Geneva, sans-serif;
+	position:absolute;
+	font-size:2.2em;
+	font-weight:bold;
+	left:12px;
+	text-shadow:1px 1px 1px #000;
+	
+}
+.news ul li .date .mes{
+	font-family:'Myriad Pro',Verdana, Geneva, sans-serif;
+	position:absolute;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#707070;
+	left:12px;
+	top:25px;
+	text-shadow:1px 1px 1px #000;
+}
+.news ul li p{
+	text-shadow:1px 1px 1px #333;
+	float:right;
+	font-size:0.9em;
+	width:190px;
+	padding:0;
+	margin:0;
+	color:#a1a1a1;
+}
+.separacao iframe{
+	margin:13px 0;
+}
+.separacao .imagem img{
+	position:absolute;
+	right:50px;
+	top:65px;
+}
+
+
+
+.events ul{
+	margin:0;
+	padding:0;
+	width:250px;
+	height:300px;
+}
+.events ul li{
+	margin:25px 0;
+	width:250px;
+	height:65px;
+	list-style-type:none;
+	color:#FFF;
+}
+.events ul li:last-child{
+	margin:20px 0 0 0;
+}
+.events ul li .date{
+	width:54px;
+	height:54px;
+	float:left;
+	position:relative;
+	border-radius:30px;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+	background:#FFF;
+}
+.events ul li .date .dia{
+	font-family:'Myriad Pro',Verdana, Geneva, sans-serif;
+	position:absolute;
+	font-size:2.2em;
+	left:12px;
+	color:#5ca8d2;
+	
+}
+.events ul li .date .mes{
+	font-family:'Myriad Pro',Verdana, Geneva, sans-serif;
+	position:absolute;
+	font-size:1.5em;
+	color:#707070;
+	left:12px;
+	top:25px;
+}
+.events ul li p{
+	text-shadow:1px 1px 1px #333;
+	float:right;
+	font-size:0.9em;
+	width:190px;
+	padding:0;
+	margin:0;
+	color:#a1a1a1;
+}
+.youtube{
+	margin:12px 0;
+	width:241px;
+	height:183px;
+	position:relative;
+}
+.youtube img{
+	width:231px;
+	height:173px;
+	padding:5px;
+	border:1px solid #333333;
+}
+.youtube a.playbtn{
+	box-shadow:1px 1px #000;
+	position:absolute;
+	width:56px;
+	height:56px;
+	background:url(../img/home/playbtn.png) no-repeat;
+	left:50%;
+	top:50%;
+	margin:-28px -28px;
+}
+.youtube a.playbtn:hover{
+	background-position:bottom;
+}
+.sobre p{
+	font-size:1em;
+	color:#a1a1a1;
+	text-align:justify;
+}
